@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books Library</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body class="body">
+    <header>
+      <nav class="navBar">
+        <a href="index.htm" class="logo">
+          <span>Books Library</span>
+        </a>
+        <ul class="nav-ul">
+          <li><a class="navLink" href="#bookList">Book List</a></li>
+          <li><a class="navLink" href="#addBook">Add book</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="time">August 18th 2024, 9:25:32 pm</div>
+    <section id="bookList" class="section">
+      <h1>Books Library</h1>
+      <div class="bookDisplay"></div>
+    </section>
+    <section id="addBook" class="section">
+      <div class="inputs">
+        <hr />
+        <h1>Add new book</h1>
+        <input type="text" placeholder="title" id="titleInput" />
+        <input type="text" placeholder="Author" id="authorInput" />
+        <button class="addBtn" type="button">Add</button>
+      </div>
+    </section>
+       <footer>
+      <p>&copy;</p>BooksLibrary
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
